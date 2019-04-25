@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
+
+
+
+html, body {
+ width:100%; height:100%; }
+
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li { 
+	margin:0; padding:0; }
+body,p,h1,h2,h3,h4,h5,h6 { 
+	font:12px 'Noto Sans', sans-serif; }
+ul,ol,li { 
+	list-style:none; }
+a { 
+	text-decoration:none; color:#333; }
+
+
+
+
+
+header { 
+	position:fixed; z-index:10000; width:100%; height:70px; top:0; left:0; }
+header.h_color {
+ background-color:#333; }
+
+h1#logo { 
+	position:absolute; bottom:10px; left:5%; }
+h1#logo a { 
+	font-size:25px; font-weight:700; line-height:35px; letter-spacing:2px; color:#fff; }
+
+nav {
+ position:absolute; bottom:10px; right:5%; }
+ul#nav_menu li { 
+	    float:left; margin-right:75px; line-height:27px; }
+ul#nav_menu li:last-child { 
+	margin-right:0; }
+ul#nav_menu li a { 
+	font-size:15px; font-weight:700; color:#fff; transition:0.3s all ease-out; -webkit-transition:0.3s all ease-out; -moz-transition:0.3s all ease-out; -o-transition:0.3s all ease-out; }
+ul#nav_menu li a:hover { 
+	opacity:0.5; }
+
+
+
+
+
+
+
+
