@@ -23,7 +23,7 @@ body {
 	--color-nav: #fff;
 	--font-trail-weight: 900;
 	--font-trail-size: 16vh;
-	--font-trail-lheight: 0.76;
+	--font-trail-lheight: 0.79;
 	--font-trail-family: 'Futura', sans-serif; 
 	color: var(--color-text);
 	background-color: var(--color-bg);
